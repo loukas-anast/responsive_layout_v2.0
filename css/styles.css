@@ -1,0 +1,261 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-size:16px;
+    font-family:Roboto, Arial, sans-serif;
+    color:#4a4a4a;
+    background:#fafafa;
+}
+header{
+    padding:0 0 40px 0;
+    text-align:center;
+}
+header > h1{
+    font-size:24px;
+    font-weight:700;
+    line-height:80px;
+}
+header > p{
+    width:90%;
+    margin:0 auto;
+    line-height:30px;
+}
+.top-nav > ul{
+    list-style:none;
+    width:90%;
+    margin:0 auto 40px auto;
+}
+.top-nav > ul > li{
+    margin:0 0 5px 0;
+    font-size:14px;
+    font-weight:700;
+    line-height:32px;
+    background:#fff;
+}
+.top-nav a{
+    display:block;
+    color:inherit;
+    text-decoration:none;
+}
+.profile-image{
+    width:60%;
+    margin:0 0 40px 0;
+}
+main{
+    display:block;
+    text-align:center;
+    background:#fff;
+}
+main > h3{
+    font-size:14px;
+    font-weight:700;
+    line-height:100px;
+}
+main > article{
+    width:90%;
+    padding:0 0 30px 0;
+    margin:0 auto;
+}
+main > article > img{
+    width:100%;
+}
+
+main > article > h2{
+    font-size:18px;
+    font-weight:400;
+    line-height:60px
+}
+main > article > p{
+    line-height:24px;
+}
+footer{
+    color:#6a6a6a;
+    text-align:center;
+    overflow:hidden;
+}
+footer > h3{
+    font-size:14px;
+    font-weight:700;
+    line-height:100px;
+    color:#4a4a4a;
+}
+footer > p{
+    width:90%;
+    margin:0 auto 30px auto;
+    line-height:24px;
+}
+.footer-bottom{
+    width:90%;
+    margin:40px auto 0 auto;
+    line-height:100px;
+    border-top:1px solid #ddd;
+    overflow:hidden;
+}
+.footer-bottom > span{
+    display:block;
+    float:left;
+    font-size:14px;
+    font-weight:700;
+    color:#4a4a4a;
+}
+.footer-bottom > a{
+    display:block;
+    float:right;
+    font-size:14px;
+    font-weight:700;
+    color:#4a4a4a;
+    text-decoration:none;
+}
+.bottom-nav{
+    display:none;
+}
+.fix{
+    clear:both;
+}
+@media (min-width:768px){
+    .wrapper{
+        width:768px;
+        margin:0 auto;
+    }
+    header{
+        padding:40px;
+        overflow:hidden;
+    }
+    header > p{
+        width:auto;
+        font-size:18px;
+        text-align:left;
+    }
+    .top-nav{
+        margin:30px auto 0 auto;
+    }
+    .top-nav > ul{
+        width:auto;
+    }
+    .top-nav > ul > li{
+        display:inline-block;
+        margin:0 20px;
+        background:transparent;
+    }
+    .profile-image{
+        width:40%;
+        float:right;
+        margin:0 0 0 30px;
+    }
+    main{
+        padding:0 4%;
+        overflow:hidden;
+    }
+    main > article{
+        width:45%;
+        float:left;
+        margin:0 10% 0 0;
+    }
+    main > article:nth-of-type(2n+2){
+        margin:0;
+    }
+    footer{
+        font-size:18px;
+    }
+    footer > p{
+        width:50%;
+    }
+    .footer-bottom > a{
+        display:none;
+    }
+    .bottom-nav{
+        display:block;
+        float:right;
+    }
+    .bottom-nav > ul{
+        list-style:none;
+    }
+    .bottom-nav > ul > li{
+        display:inline-block;
+        margin:0 0 0 30px;
+        font-size:14px;
+        font-weight:700;
+    }
+    .bottom-nav > ul > li > a{
+        color:#4a4a4a;
+        text-decoration:none;
+    }
+}
+@media (min-width:1024px){
+    .wrapper{
+        width:1024px;
+        margin:0 auto;
+    }
+    header{
+        text-align:left;
+        padding:40px;
+        overflow:hidden;
+    }
+    header > h1{
+        float:left;
+    }
+    header > p{
+        width:auto;
+        font-size:18px;
+    }
+    .top-nav{
+        float:right;
+        margin:30px 0 0 0;
+    }
+    .top-nav > ul{
+        width:auto;
+    }
+    .top-nav > ul > li{
+        display:inline-block;
+        margin-left:40px;
+        background:transparent;
+    }
+    .profile-image{
+        width:40%;
+        float:right;
+        margin:0 0 0 30px;
+    }
+    main{
+        padding:0 4%;
+        overflow:hidden;
+    }
+    main > article{
+        width:30%;
+        float:left;
+        margin:0 5% 0 0;
+    }
+    main > article:nth-of-type(2n+2){
+        margin:0 5% 0 0;
+    }
+    main > article:nth-of-type(3n+3){
+        margin:0;
+    }
+    footer{
+        font-size:18px;
+    }
+    footer > p{
+        width:50%;
+    }
+    .footer-bottom > a{
+        display:none;
+    }
+    .bottom-nav{
+        display:block;
+        float:right;
+    }
+    .bottom-nav > ul{
+        list-style:none;
+    }
+    .bottom-nav > ul > li{
+        display:inline-block;
+        margin:0 0 0 30px;
+        font-size:14px;
+        font-weight:700;
+    }
+    .bottom-nav > ul > li > a{
+        color:#4a4a4a;
+        text-decoration:none;
+    }
+}
